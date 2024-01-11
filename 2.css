@@ -1,0 +1,70 @@
+body {
+    background-image: url(image/hip_hop.jpg);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#main_menu {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_menu li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+#main_menu li a {
+    text-decoration: none;
+    padding: 10px 100px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#main_menu li a:hover {
+    background: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300vh;
+    flex-direction: column;
+}
+
+
+
+.teacher {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.teacher img {
+    width: 400px;
+    height: auto;
+    
+    margin-right: 20px;
+}
+
+.teacher.visible {
+    opacity: 1;
+}
+
+.text {
+    font-size: 30px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline; 
+}
+

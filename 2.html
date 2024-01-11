@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>導師團</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <nav>
+        <ul id="main_menu">
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="3.html">主持人</a></li>
+            <li><a href="4.html">決賽選手</a></li>
+    
+        </ul>
+    </nav>
+
+    <div class="container">
+    <div class="teacher">
+        <img src="image/teacher1.jpg" >
+        <div class="text">
+        <h2>蔡詩芸</h2>
+        <p>蔡詩芸先前在拍攝《大嘻哈時代2》宣傳片的過程中<br>整體造型頗有嘻哈女王架式<br>頭頂粉紅色的帽子十分前衛<br>她笑說「有發現網友說自己的造型像比莉姐。」<br>目前是獨立創作人<br>前陣子推出的作品也受到好評<br>並受到第12屆金音創作獎的肯定<br>她的新專輯中除了強調女力之外<br>嘻哈也是非常重要的元素</p>
+        </div>
+    </div>
+    <div class="teacher">
+        <img src="image/teacher2.jpg" >
+        <div class="text">
+            <h2>陳星翰</h2>
+            <p>憑著自身對音樂敏銳的嗅覺和獨特的創作才氣<br>陳星翰從歌手、編曲人一路發展成音樂製作人<br>近年甚至與夥伴們一同創建音樂廠牌<br>其全方位的成就已無須多言<br>對於許多臺灣的嘻哈迷來說<br>他無窮的創作能量十年不變無論是作為何種身<br>他依舊能在他所熱愛的音樂產業持續發揮他的影響力</p>
+        </div>
+    </div>
+    <div class="teacher">
+        <img src="image/teacher3.jpg">
+        <div class="text">
+            <h2>迪拉胖</h2>
+            <p>顏社企業有限公司成立於2005年七月<br>至2015年十個年頭以來<br>創立人迪拉胖志以推動華語饒舌音樂為志向<br>打造屬於台灣本地的全新饒舌嘻哈音樂廠牌<br>為此顏社經由多方尋覓、培育出多位饒舌歌手<br>包括輕饒舌藝人蛋堡<br>有著慵懶聲線的國蛋等<br>目前還有一批全新生力軍正準備崛起 </p>
+        </div>
+    </div>
+</div>
+
+
+</div>
+<script>
+    window.addEventListener('scroll', reveal);
+
+    function reveal() {
+        const items = document.querySelectorAll('.teacher');
+        items.forEach(item => {
+            const itemTop = item.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+            if (itemTop < windowHeight / 1.3) {
+                item.classList.add('visible');
+            }
+        });
+    }
+</script>
+
+</body>
+</html>

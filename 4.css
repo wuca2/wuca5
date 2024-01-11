@@ -1,0 +1,67 @@
+body{
+  background-image: url(image/finals.jpg);
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+#main_menu{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_menu li{
+    list-style: none;
+    margin-left: 20px;}
+#main_menu li a{
+    text-decoration: none;
+    padding: 10px 100px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;}
+
+#main_menu li a:hover{
+    background: #000000;
+    color: rgb(255, 255, 255);}
+
+.artist-container {
+    font-family:sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .horizontal-artists {
+    display: flex; 
+    gap: 20px; }
+  
+  .artist {
+    width: 45%;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.998);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .artist:hover {
+    transform: scale(1.05);
+    background-color: aliceblue;
+  }
+  
+  .artist img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .artist-info {
+    padding: 10px;
+  }
+  
+  .artist-info h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  

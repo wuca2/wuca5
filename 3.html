@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主持人</title>
+    <link rel="stylesheet" href="3.css">
+
+
+
+</head>
+
+<body>
+
+
+    <nav>
+        <ul id="main_menu">
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="2.html">導師團</a></li>
+            <li><a href="4.html">決賽選手</a></li>
+    
+        </ul>
+    </nav>
+
+<div class="fixed_bg bg_1">
+    <h1 class="vcenter"></h1>
+</div>
+
+<div class="infos color_1">
+    <h1 class="vcenter">美麗本人</h1>
+    <h2 class="vcenter2">美麗本人aka蜆仔<br>知名YouTuber、網美、饒活歌手<br>音樂製作人,主持人<br>以浮誇且具有幽默感的表演擄獲大眾芳心<br>海選時攜筋膜槍上場製造變聲效果<br>讓剃刀蔣直呼:「大有創意了<br>竟然想到這種破框架的方式!<br>奪得優先進棚權。<br></h2>
+</div>
+
+<div class="fixed_bg bg_2">
+    <h1 class="vcenter"></h1>
+   
+</div>
+
+<div class="infos color_2">
+    <h1 class="vcenter">賀瓏</h1>
+     <h2 class="vcenter2">成為《博恩夜夜秀》主持人<br>現為薩泰爾娛樂主要成員之一<br>嗆聲說:<br>「在我的刻板印象中<br>嘻哈選手應該是很喜歡講real的<br>應該會diss來diss去的<br>但錄影後我才發現<br>他們超級peace的<br>我甚至都覺得玩喜劇都比他們嗆!」<br></h2>
+</div>
+
+ <div class="fixed_bg bg_3">
+    <h1 class="vcenter"></h1>
+</div>
+
+<div class="infos color_3">
+    <h1 class="vcenter">DJ嗩吶</h1>
+    <h2 class="vcenter2">41歲的嗩吶<br>是一位美國演員<br>YouTuber、嘻哈藝術家<br>音樂製作人和主持人<br>嗩吶是唯一一位在台灣<br>主持總統府音樂會的<br>美國公民和非台灣公民<br>他也是第一位出現在<br>台灣MTV網絡的美國主持人<br>也是第一位與三立電視台簽約的西方人</h2>
+</div>
+
+<div class="fixed_bg bg_4">
+    <h1 class="vcenter"></h1>
+</div>
+
+<div class="infos color_4">
+    <h1 class="vcenter">阿達</h1>
+    <h2 class="vcenter2">台灣高雄人<br>從電視節目《大學生了沒》出道<br>在音樂上創作過許多擁有<br>千萬點擊率的歌曲<br>與李伯恩搭擋組成「自由發揮」<br>並入圍第22屆金曲獎<br>『最佳音樂錄影帶獎』<br>第23屆金曲獎<br>『最佳演唱組合獎』<br>以及第50屆金馬獎<br>『最住原創雷影歌曲』</h2>
+</div>
+
+<a href="#" class="back-to-top-btn">
+    <img src="image/arrow_pointing_up_preview.png" >
+    </a>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var backToTopBtns = document.querySelectorAll(".back-to-top-btn");
+
+        window.addEventListener("scroll", function () {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopBtns.forEach(function(btn) {
+                    btn.classList.add("show");
+                });
+            } else {
+                backToTopBtns.forEach(function(btn) {
+                    btn.classList.remove("show");
+                });
+            }
+        });
+
+        backToTopBtns.forEach(function(btn) {
+            btn.addEventListener("click", function () {
+                document.body.scrollTop = 0; 
+                document.documentElement.scrollTop = 0; 
+            });
+        });
+    });
+</script>

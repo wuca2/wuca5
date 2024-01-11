@@ -1,0 +1,52 @@
+body {
+  background-image: url(image/first.jpg);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+  }
+  
+
+  
+  #content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+
+  .fb{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-top: 80px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .tab {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .tab:hover {
+    background-color: rgba(232, 15, 15, 0.7)
+
+  }
+  
